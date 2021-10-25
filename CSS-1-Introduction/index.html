@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Internal-InLine-External Css</title>
+    <!-- External Css writing css codes in css file and linking it to related html page -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+        /*internal Css writing css codes in head of page*/
+        h1 {
+            font-size: 30px;
+            color: red;
+            text-align: center;
+        }
+        p {
+            color: blue;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid green;
+        }
+        hr{
+            border: 2px solid yellow;
+        }
+        
+    </style>
+</head>
+
+<body>
+   <h1 style="border: 3px solid red;">Web Geliştirme</h1>
+   <hr>
+   <!-- In line Css using style="css: attribute; css1: attribute1" in related tag -->
+    <p style="color: green; font-size: 15px; text-align: left;">Komple uygulamlı Web Geliştirme</p> <!inline css>
+    <p>Komple uygulamlı Web Geliştirme</p>
+    <p style="border: none; color: black;">Komple uygulamlı Web Geliştirme</p>
+    <a href="#">External Css</a>
+</body>
+
+</html>
