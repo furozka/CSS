@@ -1,0 +1,1 @@
+**div'lerin stilinin ayarlanması

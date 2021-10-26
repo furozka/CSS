@@ -1,0 +1,1 @@
+**style.css dosyasında istenen şekilde sayfayı şekillendiriniz.

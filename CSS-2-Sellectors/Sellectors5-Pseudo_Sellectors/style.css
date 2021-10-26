@@ -1,0 +1,75 @@
+/*Psedu Element*/
+
+
+p.about:first-line{
+    font-weight: bolder;
+    color: brown;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+p::first-letter{
+    font-size: 30px;
+    color: red;
+}
+p::after{
+    content: "deneme";
+    display: block;
+    padding: 8px 10px;
+    background-color: yellow;
+}
+
+/*Psedu Class*/
+
+ul li:first-child{
+    background-color: red;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+ul li:nth-of-type(even){
+    border: 1px solid yellow;
+}
+ul li:nth-of-type(odd){
+    border: 1px solid blue;
+}
+
+a{
+    display: block;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: white;
+    background-color: green;
+}
+
+a:active{
+    color: green;
+    background-color: gold;
+}
+
+span{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+#displaydiv:hover span{
+    display: block;
+}

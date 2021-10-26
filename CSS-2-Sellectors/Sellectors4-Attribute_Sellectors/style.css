@@ -1,0 +1,23 @@
+p[title]{
+    border: 1px solid gray;
+    padding: 30px
+}
+
+p[title="second"]{
+    background-color: gold;
+}
+
+a[href$="com"]{
+    background-color: red;
+}
+a[href^="https"][target="_blank"]{
+    background-color: aqua;
+}
+input[type="text"]{
+    background-color: blue;
+    display: block
+}
+input[type="button"]{
+    background-color: green;
+    padding: 10px 10px;
+}
