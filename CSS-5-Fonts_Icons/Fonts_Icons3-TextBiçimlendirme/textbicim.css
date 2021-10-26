@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 700px;
+    margin: 30px auto;
+    font-family: 'PT Serif', serif;
+}
+.itaunder{
+    font-style: italic;
+}
+.link{
+    color: #83a9f4;
+    text-decoration: none;
+}
+p{
+    font-size: 22px;
+    line-height: 150%;
+    word-spacing: 3px;
+    text-indent: 10px;
+    letter-spacing: 1px;
+}

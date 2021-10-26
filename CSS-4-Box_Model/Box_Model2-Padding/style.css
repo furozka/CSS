@@ -1,0 +1,23 @@
+	.box {
+
+}
+
+	#first {
+	    background: gold;
+        padding: 20px;
+	}
+
+	#second {
+	    background: green;
+
+	}
+
+	* {
+	    margin: 0;
+	}
+span{
+    background-color: red;
+    margin-right: 50px;
+    padding: 50px;
+}
+

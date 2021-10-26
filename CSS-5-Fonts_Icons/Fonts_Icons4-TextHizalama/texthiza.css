@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 700px;
+    margin: 30px auto;
+    font-family: 'PT Serif', serif;
+}
+.itaunder{
+    font-style: italic;
+}
+.link{
+    color: #83a9f4;
+    text-decoration: none;
+}
+p{
+    font-size: 22px;
+    line-height: 150%;
+    word-spacing: 3px;
+    text-indent: 10px;
+    letter-spacing: 1px;
+}
+#first-p{
+    text-align: right;
+}
+#second-p{
+    text-align: center;
+}
+#third-p{
+    text-align: left;
+    column-count: 2;
+    column-rule: 2px solid rgb(0, 0, 0, 0.4);
+    border: 1px solid rgb(0, 0, 0, 0.4);
+    padding: 10px;
+}
+div#linkhiza{
+    text-align: right;
+}
+p#fourth-p{
+    text-align: justify;
+    text-indent: 20px;
+}

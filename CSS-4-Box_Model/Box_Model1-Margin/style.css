@@ -1,0 +1,19 @@
+.box{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: blue;
+}
+span{
+    background-color: red;
+    margin: 10px;
+}

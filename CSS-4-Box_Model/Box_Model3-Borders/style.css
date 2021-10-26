@@ -1,0 +1,39 @@
+.box{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: lightgray;
+    margin: 10px;
+}
+#box1{
+    border-top-width: 1px;
+    border-right-width: 5px;
+    border-bottom-width: 10px;
+    border-left-width: 5px;
+    border-top-style: solid;
+    border-right-style: groove;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color: black;
+}
+#box2{
+    border: 2px solid blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+}
+#box3{
+    border: 3px solid green;
+    border-radius: 50%;
+}
+span{
+    border-left: 5px solid green;
+    background-color: lightgray;
+    border-left-width: 5px;
+    padding: 10px;
+    display: block;
+}

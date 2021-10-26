@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 95vh;
+    background-image: 
+    linear-gradient(to left bottom, rgba(102,255,102,0.7),rgba(230,255,230,0.7)),
+    url(img/bg.jpeg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+    position: relative;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.heading{
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.heading-main{
+    font-size: 50px;
+    display: block;
+    letter-spacing: 10px;
+}
+.heading-sub{
+    font-size: 30px;
+    display: block;
+    letter-spacing: 5px;
+}
+.logo-box{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    transform: translate(-50%,-50%);
+}
+.logo{
+    height: 50px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>(Floating Uygulama)-Blog</title>
+    <style>
+        .box{
+            width: 170px;
+            height: 170px;
+            margin: 5px;
+        }
+        #first{
+            background-color: red;
+            float: left;
+        }
+        #second{
+            background-color: green;
+            float: left;
+        }
+        #third{
+            background-color: blue;
+            float: left;
+        }
+        #container{
+            background-color: gray;
+        }
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>My first post</h1>
+    <div id="container" class="clearfix">
+    <div class="box" id="first"></div>
+    <div class="box" id="second"></div>
+    <div class="box" id="third"></div>
+    </div>
+</body>
+</html>

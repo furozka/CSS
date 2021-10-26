@@ -1,0 +1,11 @@
+body{
+    font-size: 16px;
+}
+i{
+    color: rgb(204, 71, 9);
+    font-size: 48px;
+}
+i.fa-copyright{
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+}
