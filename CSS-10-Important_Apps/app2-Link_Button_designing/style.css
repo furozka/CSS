@@ -1,0 +1,111 @@
+.btn{
+    display:inline-block;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.primary{
+    background-color: #007bff;
+}
+.primary:hover{
+    opacity: 0.6;
+    transition: 0.3 linear;
+}
+
+.secondary{
+    background-color: gray;
+}
+.secondary:hover{
+    opacity: 0.6;
+    transition: 0.3 linear;
+}
+.success{
+    background-color: green;
+}
+.success:hover{
+    opacity: 0.6;
+    transition: 0.3 linear;
+}
+
+.danger{
+    background-color: red;
+}
+.danger:hover{
+    opacity: 0.6;
+    transition: 0.3 linear;
+}
+
+.warning{
+    background-color: rgb(150, 150, 24);
+}
+.warning:hover{
+    opacity: 0.6;
+    transition: 0.3 linear;
+}
+
+
+/* Küçükten büyüğe butonlar */
+
+.btn-xs{
+    padding: 8px 15px;
+    font-size: 5px;
+}
+.btn-sm{
+    padding: 10px 17px;
+    font-size: 10px;
+}
+.btn-md{
+    padding: 12px 19px;
+    font-size: 14px;
+}
+.btn-lg{
+    padding: 14px 21px;
+    font-size: 20px;
+}
+.btn-xlg{
+    padding: 25px 50px;
+    font-size: 30px;
+}
+
+/* tüm satırı kaplayan butonlar */
+
+.btn-block{
+    display: block;
+    margin: 10px 0px;
+}
+
+/* rounded */
+
+.btn-rounded{
+    border-radius: 5px;
+}
+
+/* İçi beyaz yazılar renkli butonlar*/
+
+.primary-outline{
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+.secondary-outline{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+.success-outline{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.danger-outline{
+    background-color: white;
+    color:red;
+    border: 1px solid red;
+}
+.warning-outline{
+    background-color: white;
+    color: rgb(150, 150, 24);
+    border: 1px solid rgb(150, 150, 24);
+}

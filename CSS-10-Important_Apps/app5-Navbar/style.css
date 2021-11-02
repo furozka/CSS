@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#nav{
+    background-color: #333;
+    font-size: 20px;
+}
+
+#nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+li a{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s linear;
+}
+li a:hover{
+    opacity: 0.8;
+    background-color: black;
+    color: springgreen!important;
+    
+}
+
+
+.active{
+    background-color: red;
+}
