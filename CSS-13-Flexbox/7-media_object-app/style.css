@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.media{
+    display: flex;
+    background-color: antiquewhite;
+    align-items: flex-start;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.media-img{
+    width: 100px;
+    margin-right: 5px;
+}
+.media-heading{
+    margin-bottom: 5px;
+}
+
+.media-left .media-img{
+    order: 1;
+}
+
+.media-inner{
+    width: 100%;
+}
